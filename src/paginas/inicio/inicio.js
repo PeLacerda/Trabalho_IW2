@@ -7,15 +7,17 @@ function Inicio() {
         <>
             <header id='inicio-header'>
                 <h1>Inicio do Counter-Strike</h1>
-                <Link to="/cs16">
-                    <button id='inicio-button'>CS 1.6</button>
-                </Link>
-                <Link to="/CS-GO/csgo.js">
-                    <button id='inicio-button'>CS-GO</button>
-                </Link>
-                <Link to="/CS2/cs2.js">
-                    <button id='inicio-button'>CS-2</button>
-                </Link>
+                <nav id='inicio-nav'>
+                    <Link to="/cs16">
+                        <button className='inicio-button'>CS 1.6</button>
+                    </Link>
+                    <Link to="/csgo">
+                        <button className='inicio-button'>CS-GO</button>
+                    </Link>
+                    <Link to="/cs2">
+                        <button className='inicio-button'>CS-2</button>
+                    </Link>
+                </nav>
             </header>
 
             <div id='inicio-container'>

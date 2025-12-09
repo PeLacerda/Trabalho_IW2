@@ -1,0 +1,54 @@
+#cs2-header {
+    background-color: #4a148c;
+    color: #f3e5f5;
+    padding: 20px;
+    opacity: 0.95;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+#cs2-nav {
+    display: flex;
+    gap: 12px;
+}
+
+.cs2-button {
+    background-color: #ede7f6;
+    color: #4a148c;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 1px solid #4a148c;
+    cursor: pointer;
+    transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+.cs2-button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+#cs2-container {
+    background-color: #260f3a;
+    color: #ede7f6;
+    padding: 20px;
+    border-radius: 12px;
+    opacity: 0.9;
+    width: 80%;
+    margin: 0 auto 10%;
+}
+
+#cs2-titulo {
+    font-size: 28pt;
+    margin-bottom: 16px;
+}
+
+#cs2-texto {
+    font-size: 15pt;
+    line-height: 1.5;
+}
